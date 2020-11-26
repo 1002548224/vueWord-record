@@ -38,6 +38,8 @@ import {
   Checkbox,
   Upload
 } from 'element-ui'
+import Timeline from './timeline/index.js'
+import TimelineItem from './timeline-item/index.js'
 import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(Button)
@@ -75,6 +77,8 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 // 消息弹框Message需要进行全局挂载，挂载到Vue上
 Vue.prototype.$message = Message
